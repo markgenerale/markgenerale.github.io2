@@ -1,0 +1,188 @@
+body { 
+    margin: 0;
+    padding: 0px;
+    text-align: center;    
+
+}
+
+.myIntro {
+    position: relative;
+    border: 15px outset #040506;
+    background-color: lightblue;
+    background-image: url(../images/Everest.jpg);
+    width: 100%;
+    height: 90%;
+  
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(28, 18, 132);
+  font-size: x-large;
+}
+
+.middle{
+background-color: rgba(91, 172, 243, 0.88);
+border: 15px outset #040506;
+color:  rgb(28, 18, 132);
+font-family: "Rubik", sans-serif; 
+padding: 15px;
+font-size: medium;
+}
+hr{
+  border-width: 7px;
+  border-style: double;
+  border-color: rgb(1, 9, 33);
+}
+  
+.column {
+  display: inline-block;
+}
+
+.row { 
+  margin: 20px auto;
+  height: 300px;
+}
+.header { 
+  height: 10px;
+  
+}
+
+.left {
+  float: left ;
+  height: 100px;
+  width: 70%;
+  display: inline;
+}
+
+
+.right {
+  height: 100px;
+  width: 30%;
+}
+
+.footer {
+height: 10px;
+}
+
+.dd { 
+  text-align: left;
+}
+
+.dt { 
+  text-align: right;
+}
+
+
+
+.bottom {
+  border: 15px outset rgb(251, 246, 246);
+  background-color: rgb(28, 18, 132);
+  text-align: center;
+  color: aliceblue;
+}
+
+.line {
+  display: inline;
+}
+
+.absolute {
+  position: absolute;
+  top: 100px;
+  right: 700px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #0b12e0;
+  background-image: url(../images/polarbear.jpg)
+}
+
+.absolute2 {
+  position: absolute;
+  top: 100px;
+  left: 700px;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #0b12e0;
+  object-fit: contain;
+}
+
+.resize {
+height: 150px;
+width: 150px;
+}
+
+  dd {
+    text-decoration: none;
+  }
+  a:link {
+    color: rgb(169, 46, 138);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: rgb(234, 232, 232);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: hotpink;
+  }
+
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    border: 5px outset rgb(241, 240, 241);
+    text-decoration: none;
+    color: initial;
+}
+
+
+.myForm {
+  position: relative;
+  border: 15px outset #040506;
+  background-color: rgba(7, 67, 120, 0.808);
+  width: 100%;
+  height: 50%;
+  padding: 25px;
+  
+}
+
+.formTitle{ 
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(28, 18, 132);
+}
+
+.formSubTitle{
+  font-family: "Rubik", sans-serif;
+  color: rgb(235, 235, 244);
+}
+.card {
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 40px;
+  border-top: 40px;
+  background-color: rgba(19, 137, 210, 0.725);
+  width: 250px;
+  margin: auto;
+
+  
+}
+
+
+.card:hover {
+  box-shadow: 0 2px 4px 0 rgba(6, 2, 2, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+
+  
+}
